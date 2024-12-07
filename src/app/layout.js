@@ -1,13 +1,8 @@
-import localFont from "next/font/local";
 import "./globals.css";
 import Image from "next/image";
 import Logo from '/public/images/logo.png';
-import Navbar from "./components/navbar"
+import Navbar from "./components/navbar";
 
-export const metadata = {
-  title: "Cantor-College",
-  description: "Cantor College Website",
-};
 
 export default function RootLayout({ children }) {
   return (
@@ -15,10 +10,11 @@ export default function RootLayout({ children }) {
       <body>
         <header>
           <Image
+            className="logo"
             src={Logo}
             alt='Cantor College logo'
-            width='150'
-            height='150'
+            width='125'
+            height='125'
           />
           <Navbar />
         </header>
