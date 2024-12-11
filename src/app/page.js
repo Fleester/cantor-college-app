@@ -15,6 +15,7 @@ export default function Home() {
         alt="Front of Cantor College"
         width="auto"
         height="100"
+        
       />
       <h1>Welcome to Cantor College</h1>
     </div>
