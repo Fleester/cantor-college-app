@@ -1,0 +1,34 @@
+.facilitesPage {
+    margin-left: 8px;
+}
+
+.topFlex {
+    flex-direction: column;
+}
+
+.facilitesList {
+    display: flex;
+    flex-direction: column;
+}
+
+.facilitesList li {
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+@media (min-width: 1000px) {
+
+    .topFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .topFlex p {
+        width: 50%;
+    }
+
+    .facilitiesImage {
+        margin: auto;
+    }
+}

@@ -1,0 +1,33 @@
+import Image from "next/image";
+import styles from "./page.module.css";
+
+export const metadata = {
+    title: "Contact us",
+    description: "A form to contact us",
+};
+
+export default function ContactUs() {
+    return (
+        <div className={styles.contactUsPage}>
+            <h1>Contact us</h1>
+            <div>
+                <p>Contact us text here</p>
+            </div>
+            <div className={styles.form}>
+                <form method="post">
+                    <label forhtml="name">Name</label>
+                    <input type="text" id="name" name="name" required></input>
+                    <label forhtml="request">Contact Request</label>
+                    <input type="text" id="request" name="request" required></input>
+                    <label forhtml="email">Email</label>
+                    <input type="email" id="email" name="email" required></input>
+                    <label forhtml="phoneNumber">Phone Number</label>
+                    <input type="phoneNumber" id="phoneNumber" name="phoneNumber" required></input>
+
+                    <input type="submit" value="submit" className={styles.button}></input>
+                    <input type="reset" value="reset" className={styles.button}></input>
+                </form>
+            </div>
+        </div>
+    );
+}

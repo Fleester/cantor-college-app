@@ -15,13 +15,13 @@ export default function Navbar() {
     return (
         <nav>
             <button className="burger" onClick={toggleMenu}>&#9776;</button>
-            <menu className={menuOpen ? "" : "inactive"}>
-                <li><Link className="link" href='/'>About us</Link></li>
+            <menu className={menuOpen ? "active" : "inactive"}>
                 <li><Link className="link" href='/'>Home</Link></li>
-                <li><Link className="link" href='/'>Courses</Link></li>
-                <li><Link className="link" href='/'>Facilities</Link></li>
-                <li><Link className="link" href='/'>Information</Link></li>
-                <li><Link className="link" href='/'>Contact us</Link></li>
+                <li><Link className="link" href='/about-us'>About us</Link></li>
+                <li><Link className="link" href='/courses'>Courses</Link></li>
+                <li><Link className="link" href='/facilities'>Facilities</Link></li>
+                <li><Link className="link" href='/information'>Information</Link></li>
+                <li><Link className="link" href='/contact-us'>Contact us</Link></li>
             </menu>
         </nav>
     );

@@ -11,13 +11,14 @@ export default function Home() {
   return (
     <div className={styles.homepage}>
       <Image
+        className={styles.backgroundImage}
         src={HomeImage}
         alt="Front of Cantor College"
-        width="auto"
-        height="100"
-        
       />
-      <h1>Welcome to Cantor College</h1>
+      <div className={styles.welcomeText}>
+        <h1>Welcome to Cantor College</h1>
+        <p>Empowering Minds, Shaping Futures</p>
+      </div>
     </div>
   );
 }

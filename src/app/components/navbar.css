@@ -41,6 +41,10 @@ li .link:hover {
     .burger {
         display: none;
     }
+
+    .inactive {
+        display: flex;
+    }
     
     menu {
         display: inline;
