@@ -28,14 +28,16 @@ export default function AboutUs() {
                 />
             </div>
             <h1>How to find us</h1>
-            <div className={styles.findUsList}>
-                <li>Cantor College</li>
-                <li>Main Street</li>
-                <li>Sheffield</li>
-                <li>SC4 2BB</li>
-                <li>Tel: (01321) 2340 235</li>
-                <li>Fax: (01321) 2340 236</li>
-                <li>Email: info@cantorcollege.ac.uk</li>
+            <div>
+                <ul className={styles.findUsList}>
+                    <li>Cantor College</li>
+                    <li>Main Street</li>
+                    <li>Sheffield</li>
+                    <li>SC4 2BB</li>
+                    <li>Tel: (01321) 2340 235</li>
+                    <li>Fax: (01321) 2340 236</li>
+                    <li>Email: info@cantorcollege.ac.uk</li>
+                </ul>
             </div>
         </div>
     );

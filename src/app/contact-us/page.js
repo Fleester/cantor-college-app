@@ -19,13 +19,13 @@ export default function ContactUs() {
             <div className={styles.form}>
                 <form method="post">
                     <label forhtml="name">Name</label>
-                    <input type="text" id="name" name="name" required></input>
+                    <input type="text" id="name" name="name" aria-label="Name" required></input>
                     <label forhtml="request">Contact Request</label>
-                    <input type="text" id="request" name="request" required></input>
+                    <input type="text" id="request" name="request" aria-label="Contact request" required></input>
                     <label forhtml="email">Email</label>
-                    <input type="email" id="email" name="email" required></input>
+                    <input type="email" id="email" name="email" aria-label="Email" required></input>
                     <label forhtml="phoneNumber">Phone Number</label>
-                    <input type="phoneNumber" id="phoneNumber" name="phoneNumber" required></input>
+                    <input type="phoneNumber" id="phoneNumber" name="phoneNumber" aria-label="Phone Number" required></input>
 
                     <input type="submit" value="submit" className={styles.button}></input>
                     <input type="reset" value="reset" className={styles.button}></input>

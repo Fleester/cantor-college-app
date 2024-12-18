@@ -23,10 +23,14 @@
 }
 
 .courseInfo {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.courseInfo ul {
     display: flex;
     flex-direction: column;
     font-size: 20px;
     line-height: 33px;
-    width: 70%;
-    margin-left: 10px;
+    
 }

@@ -12,10 +12,12 @@ export default function InfoLayout({ children }) {
         <div className={styles.informationPage}>
             <h1>Information</h1>
             <br />
-            <div className={styles.LinkList}>
-                <li><Link className={styles.infoLink} href="/information">Students</Link></li>
-                <li><Link className={styles.infoLink} href="/information/staff">Staff</Link></li>
-                <li><Link className={styles.infoLink} href="/information/businesses">Businesses</Link></li>
+            <div>
+                <ul className={styles.LinkList}>
+                    <li><Link className={styles.infoLink} href="/information">Students</Link></li>
+                    <li><Link className={styles.infoLink} href="/information/staff">Staff</Link></li>
+                    <li><Link className={styles.infoLink} href="/information/businesses">Businesses</Link></li>
+                </ul>
             </div>
             {children}
         </div>

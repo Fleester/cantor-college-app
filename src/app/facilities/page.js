@@ -26,21 +26,23 @@ export default function Facilities() {
                     height="auto"
                 />
             </div>
-            <div className={styles.facilitesList}>
+            <div>
                 <h2>Facilities include:</h2>
-                <li>Wi-fi technology</li>
-                <li>Pool teaching rooms, including classrooms to teach from 25 - 80 students</li>
-                <li>Specialist faculty facilities</li>
-                <li>A double height lecture theatre at first and second floor level</li>
-                <li>Dramatic three-storey glass open atrium</li>
-                <li>Meeting rooms</li>
-                <li>Office accommodation</li>
-                <li>Specialist IT facilities</li>
-                <li>Reception desk area</li>
-                <li>Catering outlet</li>
-                <li>Parking for disabled badge holders</li>
-                <li>Cycle racks</li>
-                <li>Gallery</li>
+                <ul className={styles.facilitesList}>
+                    <li>Wi-fi technology</li>
+                    <li>Pool teaching rooms, including classrooms to teach from 25 - 80 students</li>
+                    <li>Specialist faculty facilities</li>
+                    <li>A double height lecture theatre at first and second floor level</li>
+                    <li>Dramatic three-storey glass open atrium</li>
+                    <li>Meeting rooms</li>
+                    <li>Office accommodation</li>
+                    <li>Specialist IT facilities</li>
+                    <li>Reception desk area</li>
+                    <li>Catering outlet</li>
+                    <li>Parking for disabled badge holders</li>
+                    <li>Cycle racks</li>
+                    <li>Gallery</li>
+                </ul>
             </div>
         </div>
     );
