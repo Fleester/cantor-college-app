@@ -1,11 +1,30 @@
 .findUsList {
     display: flex;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .aboutUsPage {
-    margin-left: 8px;
-    width: 70%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1000px) {
+
+    .firstPara {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .firstPara p {
+        width: 50%;
+        padding-right: 30px;
+    }
+
+    .aboutUsImage {
+        margin: auto;
+    }
 
 }

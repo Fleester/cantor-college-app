@@ -11,7 +11,10 @@ export default function ContactUs() {
         <div className={styles.contactUsPage}>
             <h1>Contact us</h1>
             <div>
-                <p>Contact us text here</p>
+                <p>Ready to explore how Cantor College can help your business grow? Contact our Business Services 
+                    team today to discuss your needs and learn more about our offerings. We look forward to working 
+                    with you to achieve your business goals.
+                </p>
             </div>
             <div className={styles.form}>
                 <form method="post">

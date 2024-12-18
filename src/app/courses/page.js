@@ -1,12 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
+import {fetchCourses} from "@/app/lib/db";
 
 export const metadata = {
     title: "Courses",
     description: "The courses we provide",
 };
 
-export default function Courses() {
+const Courses = async () => {
+    const courses = await fetchCourses();
+
     return (
         <div className={styles.coursesPage}>
             <h1>Our Courses</h1>
@@ -39,6 +43,18 @@ export default function Courses() {
                     businesses and organisations.
                 </p>
             </div>
+            <div className={styles.courseList}>
+                <h2>Courses</h2>
+                <ul>
+                    {courses.map((course, index) => (
+                        <li key={index}>
+                            <Link className={styles.courseLink} href={`./courses/${course.UcasCode}`}>{course.CourseTitle}</Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
-}
+};
+
+export default Courses;

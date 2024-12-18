@@ -1,3 +1,32 @@
 .informationPage {
-    margin-left: 8px;
+    margin-left: 10px;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.informationPage h3 {
+    margin-top: 30px;
+}
+
+.informationPage h2 {
+    margin-top: 30px;
+}
+
+.LinkList {
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.infoLink {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.infoLink:hover {
+    color: #ab750a;
 }

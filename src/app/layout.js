@@ -19,6 +19,9 @@ export default function RootLayout({ children }) {
           <Navbar />
         </header>
         {children}
+        <footer>
+          <p>© Copyright 2024 Cantor College</p>
+        </footer>
       </body>
     </html>
   );

@@ -1,4 +1,32 @@
 .coursesPage {
-    margin-left: 8px;
+    margin-left: 10px;
     width: 70%;
+    margin-bottom: 20px;
+}
+
+.courseList ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.courseLink {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #000000;
+}
+
+.courseLink:hover {
+    color: #ab750a;
+}
+
+.courseInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 33px;
+    width: 70%;
+    margin-left: 10px;
 }

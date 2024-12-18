@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import ComputerImage from "/public/images/ACES-036-Computing-Playstation-Lab-2.jpg"
+import ComputerImage from "/public/images/ACES-036-Computing-Playstation-Lab-2.jpg";
 
 export const metadata = {
     title: "Facilities",
@@ -41,10 +41,6 @@ export default function Facilities() {
                 <li>Parking for disabled badge holders</li>
                 <li>Cycle racks</li>
                 <li>Gallery</li>
-            </div>
-            <div>
-                <h2>Rules governing the use of the library and resource centre</h2>
-                <p>place it here idk</p>
             </div>
         </div>
     );

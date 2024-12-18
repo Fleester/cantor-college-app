@@ -3,6 +3,8 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import "./navbar.css"
+import Image from "next/image";
+import BurgerIcon from "/public/images/burger_icon.png";
 
 export default function Navbar() {
     
@@ -14,7 +16,10 @@ export default function Navbar() {
 
     return (
         <nav>
-            <button className="burger" onClick={toggleMenu}>&#9776;</button>
+            <Image src={BurgerIcon}
+             className="burger"
+             alt="Burger menu button" 
+             onClick={toggleMenu}/>
             <menu className={menuOpen ? "active" : "inactive"}>
                 <li><Link className="link" href='/'>Home</Link></li>
                 <li><Link className="link" href='/about-us'>About us</Link></li>

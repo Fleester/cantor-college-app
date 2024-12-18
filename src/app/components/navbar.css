@@ -5,6 +5,7 @@
     height: 60px;
     right: 10px;
     top: 40px;
+    cursor: pointer;
 }
 
 li {
@@ -14,11 +15,10 @@ li {
 li .link {
     background-color: #1f1f1f;
     display: block;
+    padding: 20px;
     text-decoration: none;
     color: #ffffff;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
     width: 100%;
     border-top: 1px solid #606060;
 }
@@ -27,13 +27,10 @@ li .link:hover {
     background-color: #3f3f3f;
 }
 
-.burger {
-    float: right;
-}
-
 .inactive {
     display: none;
 }
+
   
 
 @media (min-width: 700px) {
